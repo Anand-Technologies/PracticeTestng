@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="123456789"/>
+    <parameter name="username" value="anandtesting45"/>
+    <classes>
+      <class name="org.cts.testing.PassParameters">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="endTime"/>
+          <include name="testCase1" invocation-numbers="0"/>
+          <include name="startTime"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- org.cts.testing.PassParameters -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
